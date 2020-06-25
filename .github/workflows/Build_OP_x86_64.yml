@@ -74,7 +74,8 @@ jobs:
         git clone https://github.com/fw876/helloworld
         git clone https://github.com/openwrt-develop/luci-theme-atmaterial
         git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-    - name: Update & Install feeds
+    
+     - name: Update & Install feeds
       working-directory: ./openwrt
       run: |
         ./scripts/feeds update -a
